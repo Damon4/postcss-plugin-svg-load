@@ -1,0 +1,26 @@
+{
+  "name": "postcss-svg-load",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Damon4/postcss-svg-load.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Damon4/postcss-svg-load/issues"
+  },
+  "homepage": "https://github.com/Damon4/postcss-svg-load#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "postcss": "^5.2.16",
+    "postcss-value-parser": "^3.3.0",
+    "svgo": "^0.7.2"
+  }
+}
