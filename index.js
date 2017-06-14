@@ -13,7 +13,7 @@ const postcss_svg_load = require('postcss').plugin('postcss-svg-load', function 
     });
 
     if(!path.isAbsolute(options.root)) {
-        options.root = path.join(process.cwd(), options);
+        options.root = path.join(process.cwd(), options.root);
     }
 
     function declareProceed(decl) {
