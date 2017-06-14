@@ -3,7 +3,7 @@
 ### Usage:
 ```js
 const postcss = require('gulp-postcss');
-const postcss_svg_load = require('postcss-plugin-svg-load');
+const postcss_svg_load = require('postcss-svg-load');
 
 ...
 .pipe(postcss([
