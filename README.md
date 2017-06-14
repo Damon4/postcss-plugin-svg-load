@@ -1,5 +1,21 @@
 # postcss-svg-load
 
+### Usage:
+```js
+const postcss = require('gulp-postcss');
+const postcss_svg_load = require('postcss-plugin-svg-load');
+
+...
+.pipe(postcss([
+    postcss_svg_load({
+        properties: ['background-image'],
+        root: 'source/img'
+    })
+]))
+...
+
+```
+
 ### Options:
 - properties: ['background-image']
 - root: 'source/img'
